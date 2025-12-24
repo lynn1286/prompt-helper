@@ -46,7 +46,7 @@ fi
 CURRENT_VERSION=$(node -p "require('./package.json').version")
 echo -e "${GREEN}当前版本: v$CURRENT_VERSION${NC}"
 
-# 更新版本号（npm version 会自动创建 commit 和 tag）
+# 更新版本号
 echo -e "${YELLOW}正在更新版本...${NC}"
 npm version $VERSION_TYPE --no-git-tag-version > /dev/null
 
@@ -78,19 +78,9 @@ else
     sed -i "s/Current Version: v[0-9]*\.[0-9]*\.[0-9]*/Current Version: v$NEW_VERSION/g" README-en.md
 fi
 
-# 同步更新 sidepanel.tsx 中的版本号
-echo -e "${YELLOW}正在同步更新 sidepanel.tsx...${NC}"
-if [[ "$OSTYPE" == "darwin"* ]]; then
-    # macOS
-    sed -i '' "s/v[0-9]*\.[0-9]*\.[0-9]*<\/a>/v$NEW_VERSION<\/a>/g" src/sidepanel/sidepanel.tsx
-else
-    # Linux
-    sed -i "s/v[0-9]*\.[0-9]*\.[0-9]*<\/a>/v$NEW_VERSION<\/a>/g" src/sidepanel/sidepanel.tsx
-fi
-
 # 提交版本更新
-git add package.json README.md README-en.md src/sidepanel/sidepanel.tsx
-git commit -m "chore(release): v$NEW_VERSION"
+git add package.json README.md README-en.md
+git commit -m "chore(release):    🔨  v$NEW_VERSION"
 
 # 创建 tag
 git tag "v$NEW_VERSION"

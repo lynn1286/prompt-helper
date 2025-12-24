@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import packageJson from '../../package.json';
 import {
   addPrompt,
   deletePrompt,
@@ -544,7 +545,7 @@ const SidePanel: React.FC = () => {
             rel="noopener noreferrer"
             className="transition-colors hover:text-zinc-600"
           >
-            v1.0.0
+            v{packageJson.version}
           </a>
         </div>
       </div>
