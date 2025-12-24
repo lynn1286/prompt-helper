@@ -1,6 +1,6 @@
 # Prompt Helper - Universal AI Prompt Assistant Chrome Extension
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Manifest](https://img.shields.io/badge/Manifest-V3-orange) ![React](https://img.shields.io/badge/React-18-61dafb) ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6)
+![Version](https://img.shields.io/badge/version-1.0.1-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Manifest](https://img.shields.io/badge/Manifest-V3-orange) ![React](https://img.shields.io/badge/React-18-61dafb) ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6)
 
 **Language**: English | [中文](./README.md)
 

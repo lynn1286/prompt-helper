@@ -1,6 +1,6 @@
 {
   "name": "prompt-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "在任何 AI 网页上，都能快速检索、套用、填变量并插入 Prompt，同时支持收藏、标签、版本管理与分享。",
   "keywords": [
