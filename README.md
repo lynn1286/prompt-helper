@@ -1,6 +1,6 @@
 # Prompt Helper - 通用 AI 提示词助手 Chrome 扩展
 
-![版本](https://img.shields.io/badge/版本-1.0.4-blue) ![许可证](https://img.shields.io/badge/许可证-MIT-green) ![Manifest](https://img.shields.io/badge/Manifest-V3-orange) ![React](https://img.shields.io/badge/React-18-61dafb) ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6)
+![版本](https://img.shields.io/badge/版本-1.0.5-blue) ![许可证](https://img.shields.io/badge/许可证-MIT-green) ![Manifest](https://img.shields.io/badge/Manifest-V3-orange) ![React](https://img.shields.io/badge/React-18-61dafb) ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6)
 
 **语言版本**: [English](./README-en.md) | 中文
 
