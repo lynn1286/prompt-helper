@@ -1,0 +1,59 @@
+{
+  "common": {
+    "close": "关闭"
+  },
+  "popup": {
+    "title": "我的Chrome扩展",
+    "subtitle": "使用TypeScript和TailwindCSS构建",
+    "enableExtension": "启用扩展",
+    "disableExtension": "禁用扩展",
+    "theme": "主题",
+    "lightTheme": "浅色",
+    "darkTheme": "深色",
+    "switchToLight": "切换到浅色主题",
+    "switchToDark": "切换到深色主题",
+    "visitProject": "访问项目主页",
+    "visitGitHub": "访问GitHub"
+  },
+  "sidepanel": {
+    "title": "提示词助手",
+    "subtitle": "在任何 AI 网页上快速使用 Prompt",
+    "search_placeholder": "搜索提示词...",
+    "add_button": "新增提示词",
+    "empty_state": "暂无提示词",
+    "copy": "复制",
+    "apply": "应用",
+    "copied": "已复制!",
+    "clear_button": "清空输入",
+    "import": "导入",
+    "export": "导出",
+    "sort": "排序",
+    "delete": "删除",
+    "delete_confirm": "确认",
+    "delete_cancel": "取消"
+  },
+  "modal": {
+    "title": "新增提示词",
+    "title_edit": "编辑提示词",
+    "name": "提示词名称",
+    "content": "提示词内容",
+    "category": "分类",
+    "model": "推荐模型",
+    "save": "保存",
+    "cancel": "取消",
+    "required_field": "此字段必填",
+    "placeholder_name": "请输入提示词名称...",
+    "placeholder_content": "请输入提示词内容...",
+    "placeholder_category": "选择或输入分类",
+    "placeholder_model": "选择推荐模型"
+  },
+  "content": {
+    "title": "我的扩展",
+    "description": "这是一个内容脚本示例"
+  },
+  "settings": {
+    "language": "语言",
+    "chinese": "中文",
+    "english": "English"
+  }
+}

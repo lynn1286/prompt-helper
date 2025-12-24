@@ -1,0 +1,59 @@
+{
+  "common": {
+    "close": "Close"
+  },
+  "popup": {
+    "title": "My Chrome Extension",
+    "subtitle": "Built with TypeScript and TailwindCSS",
+    "enableExtension": "Enable Extension",
+    "disableExtension": "Disable Extension",
+    "theme": "Theme",
+    "lightTheme": "Light",
+    "darkTheme": "Dark",
+    "switchToLight": "Switch to light theme",
+    "switchToDark": "Switch to dark theme",
+    "visitProject": "Visit Project Homepage",
+    "visitGitHub": "Visit GitHub"
+  },
+  "sidepanel": {
+    "title": "Prompt Helper",
+    "subtitle": "Quickly use prompts on any AI webpage",
+    "search_placeholder": "Search prompts...",
+    "add_button": "Add Prompt",
+    "empty_state": "No prompts yet",
+    "copy": "Copy",
+    "apply": "Apply",
+    "copied": "Copied!",
+    "clear_button": "Clear Input",
+    "import": "Import",
+    "export": "Export",
+    "sort": "Sort",
+    "delete": "Delete",
+    "delete_confirm": "Confirm",
+    "delete_cancel": "Cancel"
+  },
+  "modal": {
+    "title": "Add New Prompt",
+    "title_edit": "Edit Prompt",
+    "name": "Prompt Name",
+    "content": "Prompt Content",
+    "category": "Category",
+    "model": "Recommended Model",
+    "save": "Save",
+    "cancel": "Cancel",
+    "required_field": "This field is required",
+    "placeholder_name": "Enter prompt name...",
+    "placeholder_content": "Enter prompt content...",
+    "placeholder_category": "Select or enter category",
+    "placeholder_model": "Select recommended model"
+  },
+  "content": {
+    "title": "My Extension",
+    "description": "This is a content script example"
+  },
+  "settings": {
+    "language": "Language",
+    "chinese": "中文",
+    "english": "English"
+  }
+}
