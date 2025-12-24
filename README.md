@@ -15,7 +15,7 @@
 - **Claude** (claude.ai)
 - **Kimi** (kimi.com / kimi.moonshot.cn)
 - **DeepSeek** (chat.deepseek.com)
-- **通义千问** (tongyi.com)
+- **通义千问** (qianwen.com)
 - **腾讯元宝** (yuanbao.tencent.com)
 - **Google AI Studio** (aistudio.google.com)
 - **Grok** (grok.com)

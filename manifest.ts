@@ -39,7 +39,7 @@ export default defineManifest({
         'https://kimi.com/*',
         'https://kimi.moonshot.cn/*',
         'https://chat.deepseek.com/*',
-        'https://www.tongyi.com/*',
+        'https://www.qianwen.com/*',
         'https://yuanbao.tencent.com/chat/*',
         'https://aistudio.google.com/*',
         'https://grok.com/*',

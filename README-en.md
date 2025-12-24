@@ -15,7 +15,7 @@ A powerful Chrome browser extension that provides intelligent Prompt management 
 - **Claude** (claude.ai)
 - **Kimi** (kimi.com / kimi.moonshot.cn)
 - **DeepSeek** (chat.deepseek.com)
-- **Tongyi Qianwen** (tongyi.com)
+- **Tongyi Qianwen** (qianwen.com)
 - **Tencent Yuanbao** (yuanbao.tencent.com)
 - **Google AI Studio** (aistudio.google.com)
 - **Grok** (grok.com)

@@ -41,12 +41,12 @@ const siteConfigs: Record<string, SiteConfig> = {
   'deepseek.com': {
     name: 'DeepSeek',
     inputSelector:
-      'textarea[placeholder*="随便聊点什么"], textarea[placeholder*="Ask me anything"], div[contenteditable="true"], #chat-input, [role="textbox"]',
+      'textarea[placeholder*="随便聊点什么"], textarea[placeholder*="Ask me anything"], textarea[placeholder*="给 DeepSeek 发送消息"], div[contenteditable="true"], #chat-input, [role="textbox"]',
   },
-  'tongyi.com': {
+  'qianwen.com': {
     name: '通义',
     inputSelector:
-      'textarea[placeholder*="有问题，随时问通义"], textarea[placeholder*="问题"], textarea, div[contenteditable="true"], [role="textbox"]',
+      'textarea[placeholder*="有问题，随时问通义"], textarea[placeholder*="向千问提问"], textarea[placeholder*="问题"], textarea, div[contenteditable="true"], [role="textbox"]',
   },
   'yuanbao.tencent.com': {
     name: '腾讯元宝',
@@ -62,7 +62,7 @@ const siteConfigs: Record<string, SiteConfig> = {
   'grok.com': {
     name: 'Grok',
     inputSelector:
-      'form .query-bar textarea[aria-label], textarea[aria-label*="Grok"], textarea[aria-label*="向 Grok"], textarea',
+      'form .query-bar textarea[aria-label], textarea[aria-label*="Grok"], textarea[aria-label*="向 Grok"], textarea, form .query-bar div[contenteditable="true"]',
   },
   'doubao.com': {
     name: '豆包',
@@ -423,7 +423,7 @@ function applyPromptToChat(
   if (tagName === 'textarea') {
     const textarea = target as HTMLTextAreaElement;
 
-    if (location.hostname.includes('tongyi.com')) {
+    if (location.hostname.includes('qianwen.com')) {
       // 通义千问特殊处理
       textarea.focus();
       textarea.value = '';
