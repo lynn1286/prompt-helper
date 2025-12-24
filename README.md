@@ -85,6 +85,8 @@ pnpm build
 
 ### 界面概览
 
+![Prompt Helper 界面预览](./src/assets/screenshot.png)
+
 安装后，点击 Chrome 工具栏中的扩展图标，即可打开侧边栏面板：
 
 1. **添加提示词**：点击「添加」按钮创建新的提示词模板
